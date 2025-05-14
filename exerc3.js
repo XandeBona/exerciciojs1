@@ -6,7 +6,7 @@ function alterarParagrafo(){
 
 function gerenciarEventos() {
     const botaoEnviar = document.getElementById("botao_enviar");
-    botaoEnviar = addEventListener("click", alterarParagrafo);
+    botaoEnviar.addEventListener("click", alterarParagrafo);
 }
 
 window.addEventListener("load", gerenciarEventos);
